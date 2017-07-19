@@ -1,6 +1,11 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 This package serves nothing but to pass Peer-graded Assignment: Building an R Package.
 
+Continuous Integration status
+-----------------------------
+
+[![Build Status](https://travis-ci.org/azerbinati/courseraPack.svg?branch=master)](https://travis-ci.org/azerbinati/courseraPack)
+
 Assignment Info
 ---------------
 
