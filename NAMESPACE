@@ -1,0 +1,8 @@
+exportPattern("^[[:alpha:]]+")
+export("fars_map_state")
+
+importFrom("readr","read_csv")
+importFrom("dplyr","bind_rows","group_by","summarize","select","mutate",'filter','tbl_df')
+importFrom("tidyr","spread")
+importFrom("maps","map")
+importFrom("graphics","points")
