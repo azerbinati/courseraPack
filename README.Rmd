@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 
 This package serves nothing but to pass Peer-graded Assignment: Building an R Package.
 
-
+## Continuous Integration status
 
 
 ## Assignment Info
