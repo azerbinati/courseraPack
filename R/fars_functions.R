@@ -18,8 +18,9 @@
 #' @importFrom readr read_csv
 #'
 #' @examples
-#' fars_read("accident_2013.csv.bz2")
+#' \dontrun{
 #' fars_read(make_filename(2017))
+#' }
 #' @seealso \code{\link{make_filename}}
 fars_read <- function(filename) {
   if(!file.exists(filename))
@@ -80,8 +81,9 @@ fars_read_years<- function(years) {
 #' @importFrom tidyr spread
 #' @return a tibble, summary with obs. for months in columsn and year in rows of fars data
 #' @export
-#'
+#'\dontrun{
 #' @examples fars_summarize_years(c(2015,2014))
+#' }
 fars_summarize_years <- function(years) {
   dat_list <- fars_read_years(years)
   dplyr::bind_rows(dat_list) %>%
@@ -102,7 +104,10 @@ fars_summarize_years <- function(years) {
 #' @return generate a map with a point for every location, return a NULL.
 #' @export
 #'
-#' @examples \code{fars_map_state(1,2014)}
+#' @examples
+#' \dontrun{
+#' fars_map_state(12,2014)
+#' }
 fars_map_state <- function(state.num, year) {
   filename <- make_filename(year)
   data <- fars_read(filename)

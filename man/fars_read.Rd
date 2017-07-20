@@ -18,8 +18,9 @@ This function read the file and put it on a data.frame structure.
 please note, this is a low-level function, check \code{\link{fars_read_years}} for a more userfriendly interface.
 }
 \examples{
-fars_read("accident_2013.csv.bz2")
+\dontrun{
 fars_read(make_filename(2017))
+}
 }
 \seealso{
 \code{\link{make_filename}}

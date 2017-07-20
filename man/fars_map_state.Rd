@@ -18,5 +18,7 @@ generate a map with a point for every location, return a NULL.
 This function generate a map of the fars data releted to a specific year and state.
 }
 \examples{
-\\code{fars_map_state(1,2014)}
+\dontrun{
+fars_map_state(12,2014)
+}
 }

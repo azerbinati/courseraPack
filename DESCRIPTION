@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: Antonio Zerbinati
 Maintainer: Antonio Zerbinati <antonio@zerbinati.eu>
 Description: This package serves nothing but to pass Peer-graded Assignment: Building an R Package.
-License: MIT
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests: knitr,

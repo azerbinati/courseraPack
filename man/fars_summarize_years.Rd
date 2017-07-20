@@ -15,6 +15,3 @@ a tibble, summary with obs. for months in columsn and year in rows of fars data
 \description{
 Summarize fars data of many year
 }
-\examples{
-fars_summarize_years(c(2015,2014))
-}
