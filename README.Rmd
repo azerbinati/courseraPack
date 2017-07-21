@@ -17,7 +17,8 @@ knitr::opts_chunk$set(
 This package serves nothing but to pass Peer-graded Assignment: Building an R Package.
 
 ## Continuous Integration status
-[![Build Status](https://travis-ci.org/azerbinati/courseraPack.svg?branch=master)](https://travis-ci.org/azerbinati/courseraPack)
+Travis Build: [![Build Status](https://travis-ci.org/azerbinati/courseraPack.svg?branch=master)](https://travis-ci.org/azerbinati/courseraPack)
+Appveyor Build: [![Build status](https://ci.appveyor.com/api/projects/status/e0wg31kupkbmy2tn?svg=true)](https://ci.appveyor.com/project/azerbinati/courserapack)
 
 
 ## Assignment Info
